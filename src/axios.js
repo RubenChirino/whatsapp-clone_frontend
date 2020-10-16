@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://localhost:9000'
+    baseURL: 'https://boiling-cliffs-79172.herokuapp.com'
 });
 
-//https://mongo-realtime.herokuapp.com     
+//http://localhost:9000     
 
 export default instance;
